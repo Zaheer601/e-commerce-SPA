@@ -1,0 +1,215 @@
+
+.stickyNav{
+  background-color: #031423c9 !important;
+}
+.shopbtn{
+  margin-left:10px;
+  margin-top:-100px;
+}
+.shopbtn:hover{
+ 
+background-color: ghostwhite !important;
+color:#031423 !important;
+transition: ease-in 0.7s;
+}
+.herocontent h1{
+font-family: "Nike Futura ND", "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+font-size: 100px;
+line-height: 100px;
+color: #031423;
+font-weight: 800;
+position: relative;
+z-index: 1000;
+
+}
+.shoppingcart {
+background-color: rgba(172, 127, 127, 0.738);
+  width: 20%; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding:70px 10px;
+  border-radius: 10px;
+
+}
+.product-card h2 {
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 30px;
+
+}
+.product-card p{
+font-family: 22px;
+font-family: sans-serif;
+font-weight: 500;
+}
+.product-card h5{
+font-size: 18px;
+font-family: sans-serif;
+font-weight: 600;
+}
+.shoppingcart img{
+  background-color: red;
+  border-radius: 150%;
+  margin:10px;
+}
+
+
+
+.shoppingcart span {
+
+  font-size: 22px;
+  color:#222;
+  font-weight: bold;
+}
+.shoppingcart h1 {
+
+  font-size: 26;
+  color:#222;
+  font-weight: bold;
+}
+.ProductSection .products-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+gap:80px;
+padding:50px 0px;
+
+}
+.ctaSection{
+   width: 100%;
+   height:60vh;
+   background-color: #031423;
+   display: flex;
+   color:ghostwhite;
+   justify-content: space-around;
+   align-items: center;
+
+box-sizing: border-box;
+padding: 50px 90px;
+ 
+}
+.ctacontent input{
+      width: 100%;
+    padding: 20px;
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 100px;
+   
+    color: ghostwhite;
+}
+.ctacontent input::placeholder{
+  color:#031423;
+  font-size: 14px;
+}
+
+.ctacontent button{
+      
+    padding: 15px 40px;
+    border-radius: 100px;
+    margin-top: 15px;
+    background: transparent;
+    color: ghostwhite;
+    border: 2px solid ghostwhite;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media (max-width:750px) {
+.productbox{
+  flex-basis: 100%;
+  }  
+  .defaultNav{
+    padding:0px 20px !important;
+  }
+  .stickyNav{
+        padding:0px 20px !important;
+  }
+  .herocontent{
+    width: 100% !important;
+    padding:20px 10px;
+ 
+    ;
+     }
+     .herocontent h1{
+      font-size: 80px !important;
+      line-height: normal !important;
+     }
+  .ecomhero{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    justify-content: center !important;
+    padding: 10px !important;
+    align-items: center;
+    height: 100vh !important;
+    box-sizing: border-box !important;
+    overflow: hidden;
+  
+  }
+  
+  .shopbtn{
+background-color: #031423 !important;
+color:ghostwhite !important;
+padding:15px 30px !important;
+font-size: 18px !important;
+  }
+  .heroimage{
+    width: 100% !important;
+  }
+  .product-card img{
+    width: 70% !important;
+  }
+  .product-card h2 {
+    font-size: 35px;
+  }
+  .ProductSection h1{
+    margin:0px !important;
+    padding:0px 10px;
+  }
+  .ctaSection{
+    padding:50px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse !important;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .ctacontent{
+    width: 100% !important;
+  }
+  .ctaimage{
+    width: 100% !important;
+  }
+  .ctacontent input{
+    width: 85% !important;
+  }
+  .ctacontent button{
+    width:100% !important;
+  }
+  .ctacontent h1{
+    font-size: 50px !important;
+    line-height: normal !important;
+  }
+  .shoppingcart{
+    width: 100% !important;
+ display: flex;
+ flex-direction: column;
+
+ justify-content: space-evenly;
+padding-left: 50px;
+ position: absolute;
+margin-top: 130px;
+z-index: 1000;
+background-color: skyblue !important;
+opacity: 1;
+}
+}
+
+
